@@ -1,0 +1,89 @@
+.index {
+  background-color: #fff;
+  margin: 0;
+}
+.index header {
+  width: 100%;
+}
+.index header .top {
+  width: 1200px;
+  min-width: 1200px;
+  border: 1px solid red;
+  height: 85px;
+  margin: 0 auto;
+}
+.index header .top .logo {
+  width: 256px;
+  height: 85px;
+  background: url('../images/spirite.png');
+  float: left;
+}
+.index header .top .area {
+  border: 1px solid #ddd;
+  display: inline-block;
+  height: 34px;
+  width: 60px;
+  border-radius: 5px;
+  float: left;
+  margin: 25px 20px;
+  padding: 0 15px;
+  line-height: 34px;
+  font-size: 13px;
+}
+.index header .top .area .gt {
+  display: inline-block;
+  -webkit-transform: rotate(90deg);
+  margin-left: 20px;
+  color: #aaa;
+  font-size: 14px;
+}
+.index header .top input[name="keyword"] {
+  height: 34px;
+  border-color: #22ac38;
+  border-width: 1px;
+  padding: 0;
+  margin-top: 25px;
+  margin-left: 100px;
+  padding-left: 15px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 220px;
+}
+.index header .top button {
+  line-height: 36px;
+  border: none;
+  background-color: #22ac38;
+  color: #fff;
+  padding: 0 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.index header nav {
+  background-color: #22ac38;
+  height: 46px;
+  overflow: hidden;
+}
+.index header nav ul {
+  width: 1200px;
+  padding: 0;
+  margin: 0 auto;
+}
+.index header nav ul li {
+  list-style-type: none;
+  float: left;
+  line-height: 45px;
+  text-align: center;
+}
+.index header nav ul li:nth-child(1) a {
+  background-color: #179500;
+}
+.index header nav ul li a {
+  text-decoration: none;
+  padding: 0 30px;
+  line-height: 45px;
+  display: inline-block;
+  color: #fff;
+}
+.index header nav ul li a:hover {
+  background-color: #179500;
+}
