@@ -1,0 +1,75 @@
+.index{
+	background-color: #fff;
+	margin: 0;
+	}
+.top{
+	width: 1200px;
+	min-width: 1200px;
+	border:1px solid red;
+	height: 85px;
+	margin: 0 auto;
+
+}
+.logo{
+	width: 256px;
+	height: 85px;
+	background: url('img/spirite.png');
+	float: left;
+}
+.area{
+	border: 1px solid #000;
+	display: inline-block;
+	height: 34px;
+	width: 60px;
+	border-radius: 5px;
+	float: left;
+	margin: 25px 20px;
+	padding: 0 15px;
+	line-height: 34px;
+	font-size: 13px;
+}
+.search{
+	height: 34px;
+	border-color: green;
+	border-width: 1px;
+	padding: 0;
+	margin-top: 25px;
+	margin-left: 100px;
+	padding-left: 30px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	width: 220px;
+}
+.click{
+       line-height: 36px;
+	   border:none;
+	   background-color: #22ac38;
+	   color: #000;
+	   padding: 0 15px;
+	   border-top-right-radius: 5px;
+	   border-bottom-right-radius: 5px;
+}
+.hot-phone{
+	float: right;
+	height: 30px;
+	line-height: 30px;
+	font-size: 20px;
+	color: #22ac38;
+	font-weight: 700;
+	margin: 25px;
+	margin-right: 200px;
+    
+    border: 0;
+    outline: 0;
+}
+.icon{
+	background: url('img/spirite.png');
+	display: block;
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    float: left;
+    background-position: -30px -100px;
+
+
+}
