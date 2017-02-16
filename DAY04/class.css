@@ -73,3 +73,33 @@
 
 
 }
+.nav{
+	background-color: #22ac38;
+	height: 46px;
+	line-height: 46px;
+	margin:0 auto;
+    
+}
+.s1{
+	display: inline-block;
+	width: 1200px;
+	padding: 0;
+	margin: 0 auto;
+
+
+}
+.s2{
+	display: inline-block;
+	list-style-type: none;
+	float: left;
+	line-height: 45px;
+	text-align: center;
+}
+li a{
+	background-color: #179500;
+	text-decoration: none;
+	padding: 0 30px;
+	line-height: 45px;
+	display: inline-block;
+	color: #fff;
+}
